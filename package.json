@@ -1,0 +1,24 @@
+{
+  "name": "aibot",
+  "version": "1.0.0",
+  "description": "My sample AIBot written in c++ and node. Example of binding in C++ into node",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "test": "g++ main.cpp && ./a.out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1337programming/AIBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1337programming/AIBot/issues"
+  },
+  "homepage": "https://github.com/1337programming/AIBot#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.4.0"
+  }
+}
