@@ -19,6 +19,7 @@
   "homepage": "https://github.com/1337programming/AIBot#readme",
   "dependencies": {
     "bindings": "^1.2.1",
-    "nan": "^2.4.0"
+    "nan": "^2.4.0",
+    "node-gyp": "^3.4.0"
   }
 }

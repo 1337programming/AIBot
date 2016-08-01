@@ -1,12 +1,7 @@
 var addon = require('bindings')('addon');
 
 var aiBot = new addon.AIBot(10);
-console.log('Keys available:');
-
-for (var key in aiBot) {
-    console.log(key);
-}
-console.log(aiBot.printTime());
+console.log(aiBot.hello());
 console.log(aiBot.plusOne()); // 11
 console.log(aiBot.plusOne()); // 12
 console.log(aiBot.plusOne()); // 13
