@@ -1,4 +1,5 @@
 #include "aibot.h"
+#include "time.h"
 
 Nan::Persistent <v8::Function> AIBot::constructor;
 
@@ -67,6 +68,6 @@ void AIBot::Multiply(const Nan::FunctionCallbackInfo <v8::Value> &info) {
 }
 
 void AIBot::Hello(const Nan::FunctionCallbackInfo <v8::Value> &info) {
-  info.GetReturnValue().Set(Nan::New("Hello World!").ToLocalChecked());
-
+  Time timer;
+  info.GetReturnValue().Set(Nan::New("Hello World").ToLocalChecked());
 }
